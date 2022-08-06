@@ -1,0 +1,18 @@
+{
+  "cwd": "C:\\Users\\Admin\\Desktop\\Mini",
+  "newProject": true,
+  "name": "My App",
+  "framework": "react",
+  "template": "blank",
+  "cssPreProcessor": false,
+  "theming": {
+    "customColor": false,
+    "color": "#007aff",
+    "darkTheme": false,
+    "iconFonts": true,
+    "fillBars": false,
+    "useUiKits": true
+  },
+  "customBuild": false,
+  "includeTailwind": false
+}

@@ -1,0 +1,68 @@
+.swipe {
+  /* border-bottom: 1.5px solid rgba(145, 158, 171, 0.24); */
+  /* display: flex; */
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+}
+.swiper-wrapper {
+  display: flex;
+}
+.swipe-customer {
+  /* max-width: 10px; */
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.swipe-customer-name {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  max-width: 250px;
+  font-size: 16px;
+  flex: 1;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-left: 25px;
+  margin-right: 10px;
+  /* margin-top: 15px; */
+}
+.swiper-slide:nth-child(2) {
+  position: absolute;
+  right: -110%;
+}
+.swipe-button {
+  /* margin-top: 10px; */
+  margin-right: 25px;
+  font-size: 16px;
+  color: white;
+  flex: 0.5;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  border-style: 3px solid;
+  width: 50px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  background-color: #eb610e;
+}
+
+.swipe-button-del {
+  /* border-bottom: 1.5px solid rgba(145, 158, 171, 0.5); */
+  color: black;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  cursor: pointer;
+  /* margin-left: 30px; */
+  z-index: 999;
+  padding-left: 30px;
+  /* margin-top: 10px; */
+  /* max-width: 100px;   */
+}
